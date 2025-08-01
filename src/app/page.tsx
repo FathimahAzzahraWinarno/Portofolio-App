@@ -93,7 +93,7 @@ export default function Home() {
       {/* HOME SECTION (HERO) */}
       <section
         id="home"
-        className="scroll-mt-24 min-h-screen flex items-center justify-center px-4 py-24 relative"
+        className="scroll-mt-24 min-h-screen from-[#0f2027] via-[#203a43] to-[#2c5364] flex items-center justify-center px-4 py-24 relative"
       >
         {/* Cursor Glow Effect */}
         <div className="cursor-light pointer-events-none fixed w-32 h-32 rounded-full bg-cyan-400 opacity-10 blur-3xl transform -translate-x-1/2 -translate-y-1/2 z-50" />

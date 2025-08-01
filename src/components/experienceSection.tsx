@@ -2,7 +2,7 @@ export default function experienceSection () {
     return(
         <section
             id="experience"
-            className="scroll-mt-24 min-h-screen flex flex-col items-center justify-center border-b px-4"
+            className="scroll-mt-24 min-h-screen from-[#0f2027] via-[#203a43] to-[#2c5364] flex flex-col items-center justify-center border-b px-4"
         >
         <h2 className="text-4xl font-bold mb-8 text-center">My Experience</h2>
         <div className="max-w-3xl space-y-6">
