@@ -25,7 +25,7 @@ export default function ProjectSection() {
     return (
     <section
         id="experience"
-        className="scroll-mt-24 min-h-screen bg-gradient-to-b from-[#0f2027] via-[#203a43] to-[#2c5364] px-4 py-12"
+        className="scroll-mt-24 min-h-screen px-4 py-12"
     >
         <h2 className="text-4xl font-bold mb-16 text-center text-white">Project</h2>
         <div className="space-y-16">

@@ -93,7 +93,7 @@ export default function Home() {
       {/* HOME SECTION (HERO) */}
       <section
         id="home"
-        className="scroll-mt-24 min-h-screen from-[#0f2027] via-[#203a43] to-[#2c5364] flex items-center justify-center px-4 py-24 relative"
+        className="scroll-mt-24 min-h-screen bg-gradient-to-b from-[#0f2027] via-[#203a43] to-[#2c5364] flex items-center justify-center px-4 py-24 relative"
       >
         {/* Cursor Glow Effect */}
         <div className="cursor-light pointer-events-none fixed w-32 h-32 rounded-full bg-cyan-400 opacity-10 blur-3xl transform -translate-x-1/2 -translate-y-1/2 z-50" />
@@ -109,12 +109,12 @@ export default function Home() {
             />
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold mt-6">FATHIMAH AZZAHRA WINARNO</h1>
-          <p className="text-lg sm:text-xl mt-2 font-semibold">FULL STACK DEVELOPER</p>
+          <p className="text-lg sm:text-xl mt-2 font-semibold">FRONTEND DEVELOPER</p>
         </div>
       </section>
 
       {/* Other Sections */}
-      <main>
+      <main className="bg-gradient-to-b from-[#0f2027] via-[#203a43] to-[#2c5364] text-white">
         <AboutSection />
         <ExperienceSection />
         <ProjectSection />
